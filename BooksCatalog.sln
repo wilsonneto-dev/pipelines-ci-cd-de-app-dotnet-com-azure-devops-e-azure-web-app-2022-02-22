@@ -13,12 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksCatalog.Infra.Persiste
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BE6DE631-34D7-439C-8A1E-FCE15ABAEB30}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipelines", "pipelines", "{4BD23B05-DC3B-4E9C-8F42-5D1AAE6A9581}"
-	ProjectSection(SolutionItems) = preProject
-		azure-pipelines-ci.yml = azure-pipelines-ci.yml
-		azure-pipelines-deploy.yml = azure-pipelines-deploy.yml
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
