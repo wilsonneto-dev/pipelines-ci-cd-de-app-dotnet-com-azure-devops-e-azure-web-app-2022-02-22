@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6997FBF5-2445-4151-BBF8-58635EF49B8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksCatalog.Api", "src\BooksCatalog.Api\BooksCatalog.Api.csproj", "{95241294-AC52-4BAD-BC01-C7D99A18BF38}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksCatalog.Domain", "src\BooksCatalog.Domain\BooksCatalog.Domain.csproj", "{24917FB2-596B-4351-968A-19FC5183E141}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BooksCatalog.Infra.Persistence", "src\BooksCatalog.Infra.Persistence\BooksCatalog.Infra.Persistence.csproj", "{B0801247-C95F-48FA-A30F-B0AF25C18CE5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BE6DE631-34D7-439C-8A1E-FCE15ABAEB30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipelines", "pipelines", "{4BD23B05-DC3B-4E9C-8F42-5D1AAE6A9581}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines-ci.yml = azure-pipelines-ci.yml
+		azure-pipelines-deploy.yml = azure-pipelines-deploy.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95241294-AC52-4BAD-BC01-C7D99A18BF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95241294-AC52-4BAD-BC01-C7D99A18BF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95241294-AC52-4BAD-BC01-C7D99A18BF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95241294-AC52-4BAD-BC01-C7D99A18BF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24917FB2-596B-4351-968A-19FC5183E141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24917FB2-596B-4351-968A-19FC5183E141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24917FB2-596B-4351-968A-19FC5183E141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24917FB2-596B-4351-968A-19FC5183E141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0801247-C95F-48FA-A30F-B0AF25C18CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0801247-C95F-48FA-A30F-B0AF25C18CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0801247-C95F-48FA-A30F-B0AF25C18CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0801247-C95F-48FA-A30F-B0AF25C18CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6DE631-34D7-439C-8A1E-FCE15ABAEB30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6DE631-34D7-439C-8A1E-FCE15ABAEB30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6DE631-34D7-439C-8A1E-FCE15ABAEB30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6DE631-34D7-439C-8A1E-FCE15ABAEB30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95241294-AC52-4BAD-BC01-C7D99A18BF38} = {6997FBF5-2445-4151-BBF8-58635EF49B8E}
+		{24917FB2-596B-4351-968A-19FC5183E141} = {6997FBF5-2445-4151-BBF8-58635EF49B8E}
+		{B0801247-C95F-48FA-A30F-B0AF25C18CE5} = {6997FBF5-2445-4151-BBF8-58635EF49B8E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AF21875-4C86-4748-AEAE-2CA665151738}
+	EndGlobalSection
+EndGlobal
