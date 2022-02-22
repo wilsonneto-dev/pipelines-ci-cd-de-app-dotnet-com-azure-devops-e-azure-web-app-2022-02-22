@@ -1,21 +1,22 @@
 <img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
 
-# Comunicação entre micro serviços com RabbitMQ e .Net
+# Criando pipelines de CI e CD de uma aplicação .Net com Azure DevOps e Azure Web App
 
-Ao final teremos um conjunto de microsserviços de exemplo que se comunicam de maneira assíncrona utilizando o RabbitMQ como solução de mensageria. Apresentado por [Wilson Neto][1].
+Ao final desta aula teremos um fluxo completo de CI/CD de maneira profissional e pronto para produção de uma aplicação .Net, com pipelines do Azure DevOps e Azure WebApp. <br />
+Apresentado por [Wilson Neto][1].
 
 ## Executar a aplicação
 
-1. Basta baixar usando <br />`https://github.com/rocketseat-experts-club/comunicacao-entre-micro-servicos-com-rabbitmq-e-dotnet-2022-01-26`
+1. Basta baixar usando <br />`git clone https://github.com/rocketseat-experts-club/pipelines-ci-cd-de-app-dotnet-com-azure-devops-e-azure-web-app-2022-02-22`
 2. Para rodar o projeto: com o Visual Studio 2019 ou 2022 instalado, basta abrir a solution do projeto e apertar F5
 
 ## Sobre a Aula
 
-Nesta aula vamos falar sobre RabbitMQ, como ele nos ajuda ao trabalhar em uma aplicação com arquitetura de microsserviçoes, os conceitos necessários, e vamos demonstrar também uma aplicação .Net Core de exemplo onde 5 microserviços se comunicão utilizando arquitetura orientada a eventos (EDA).
+Nesta aula vamos criar o pipeline de CI e de CD de uma aplicação DotNet 6 no Azure DevOps Pipelines, deployando nossa aplicação em um Azure Web App, uma combinação muito interessante de ambientes e ferramentas Microsoft.
 
 ## Link e informações de apoio
 
-Link do repositório original: https://github.com/rocketseat-experts-club/comunicacao-entre-micro-servicos-com-rabbitmq-e-dotnet-2022-01-26
+Link do repositório original: https://github.com/rocketseat-experts-club/pipelines-ci-cd-de-app-dotnet-com-azure-devops-e-azure-web-app-2022-02-22
 
 ## Expert
 
